@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      ANM Loading Screen
+    </title>
+
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" name="viewport">
+    <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/colors/yellow-2.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="film-grain"></div>
+
+    <div id="preloader">
+      <div id="preloader-status">
+        <div class="preloader-position preloader-effect">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div
+    class="hero-fullscreen hero-bg">
+      <div class="slide-YT hero-fullscreen">
+        <div class="slide bg-img-YT"></div>
+        <div id="videoContainment"></div><a class="player" data-property="{videoURL:'https://youtu.be/ufHrkPHMvWM', mute:true, showControls:false, quality:'default', opacity:1, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:0, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}" id="bgndVideo"></a>
+      </div>
+      <div class="preload-content"></div>
+    </div>
+
+    <div class="menu-trigger top-position" id="menu">
+      <button class="lines-button minus menu-toggle" id="main-menu-caller" type="button"><span class="lines"></span></button>
+    </div>
+
+    <svg id="cursor" width="20" height="20">
+      <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#f2c061"></stop>
+          <stop offset="100%" stop-color="#da1b60"></stop>
+        </linearGradient>
+      </defs>
+      <circle r="07" cx="10" cy="10" fill="none"></circle>
+      <line x1="0" y1="0" x2="20" y2="20"></line>
+      <line x1="0" y1="20" x2="20" y2="0"></line>
+    </svg>
+
+    <div id="ui-layer">
+      <div id="menu-wrapper">
+        <div id="main-menu">
+          <div class="menu-nav-wrapper">
+            <nav class="menu-nav">
+              <ul class="brackets">
+                <li class="menu">
+                  <a class="menu-state active"
+                    href="#"
+                    id="fire-home">Inicio</a>
+                </li>
+                <li class="menu">
+                  <a class="menu-state" href="#" id="fire-services">Regras</a>
+                </li>
+                <li class="menu">
+                  <a class="menu-state" href="#" id="fire-contact">Fundadores</a>
+                </li>
+                <li class="menu credits">
+                  <a href="#">Eagle Roleplay&copy;2020 direitos reservados.</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upper-page current"
+        id="home">
+      <div class="logo top-position"></div>
+
+      <div class="line-left left-position"></div>
+
+      <!-- <div class="line-right right-position"> -->
+        <!-- <a href="#">Eagle Roleplay &copy; 2020 direitos reservados.</a> -->
+      <!-- </div> -->
+
+      <div class="transparent-borders OFF"></div>
+      <div class="center-container-home">
+
+        <div class="center-block-home">
+
+          <div class="upper-content">
+
+            <div class="container sections">
+
+              <div class="row">
+
+                <div class="fin-wrapper introduction">
+
+                  <!-- <div class="fin-slides-wrapper"> -->
+                    <!-- <ul class="fin-slides"> -->
+                      <!-- <li> -->
+                        <!-- <h3> -->
+                          <!-- tenham um bom roleplay -->
+                        <!-- </h3> -->
+                      <!-- </li> -->
+                      <!-- <li> -->
+                        <!-- <h3> -->
+                          <!-- qualquer duvida chame a staff -->
+                        <!-- </h3> -->
+                      <!-- </li> -->
+                    <!-- </ul> -->
+                  <!-- </div>                -->
+                  <!-- <div class="fin-heading"> -->
+                    <!-- <h1 class="fin-heading"> -->
+                    <!-- eagle roleplay -->
+                    <!-- </h1> -->
+                  <!-- </div> -->
+                  <!-- <div class="fin-subheading"> -->
+                    <!-- &middot; seja bem-vindo &middot; -->
+                      <audio style="margin-top: 400px;" id='muzica' volume='1.0' autoplay controls>
+                       <source src="musica_video_anonymous.mp3" type="audio/mpeg">
+                      </audio>
+                      <script>
+                        var audio = document.getElementById("muzica");
+                        audio.volume = 1.0;
+                      </script>             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower-page"
+        id="services">
+
+      <div class="center-container">
+
+        <div class="center-block">
+
+          <div class="lower-content">
+
+            <div class="container sections">
+
+              <div class="row">
+                <h2>
+                  Regras <span>
+                </h2>
+              </div>
+
+              <div class="row">
+                <div class="dividerOT"></div>
+              </div>
+
+              <div class="services-columns">
+
+                <div class="row">
+                  <div class="col-md-6 services-padding mb40">
+                    <h5>
+                      <span class="awesome">MetaGaming </span>
+                    </h5>
+                    <p>
+                      Proibido o uso de infromações de fora do rp para se beneficiar dentro do rp...
+                      <!-- &middot; Proibido assistir “lives” e/ou utilizar as informações no servidor
+                      (stream snipe/GHOST).<br> &	middot; Proibido usar a lista de players para saber
+                      se a pessoa está na cidade. <br> &middot; Proibido assistir alguma “live”
+                      coletar informações e fazer denúncias para PM ou players. -->
+                    </p>
+                  </div>
+                  <div class="col-md-6 services-padding border-left-services mb40">
+                    <h5>
+                      <span class="awesome">PowerGaming</span>
+                    </h5>
+                    <p>
+                      Proibido o abuso da física do jogo. Fazer coisas que nao são feita na vida real...
+                      <!-- &middot; Proibido subir com o veículo em montanha íngreme no qual um veículo
+                      normal não subiria. <br> &middot; Proibido saltar com veículos em rampas para
+                      pular prédios; paredes; pular cerca; fugir da polícia. <br> &middot; Proibido
+                      escalar montanhas pulando, no qual não faria sem os devidos equipamentos. -->
+
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 services-padding border-top-services mt40">
+                    <h5>
+                      <span class="awesome">VDM</span> 
+                    </h5>
+                    <p>
+                      Proibido o uso de veiculos como arma...
+                      <!-- &middot; Render alguém, puxar arma ou atirar em Áreas Seguras (safe zones) é
+                      proibido. <br> &middot; Proibido chamar o jogador pelo ID que aparece sobre a
+                      cabeça. <br> &middot; Proibido capotar o veículo várias vezes e continuar a -->
+                    </p>
+                  </div>
+                  <div class="col-md-6 services-padding border-left-services border-top-services mt40">
+                    <h5>
+                      <span class="awesome">RDM</span>
+                    </h5>
+                    <p>
+                      Proibido matar sem motivo...
+                      <!-- &middot; Proibido matar um jogador fora da área PVP, atirar é sempre em ÚLTIMO
+                      CASO. Utilize os diálogos, faça um bom RP. <br> &middot; Proibido atirar em
+                      refém, mesmo ele colaborando com o RP. <br>&middot; Proibido atropelar alguém
+                      por esporte (sem motivo aparente), em nenhuma hipótese, e não usar um veículo
+                      como arma.<br>&middot; Após comprar um helicóptero você só pode pousar em
+                      HELIPONTOS, pousar na rua resultará em expulsão da cidade! -->
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower-page"
+        id="contact">
+
+      <div class="center-container">
+
+        <div class="center-block">
+
+          <div class="lower-content">
+
+            <div class="container sections">
+
+              <div class="row">
+                <h2>
+                  Fundadores <span>
+                </h2>
+              </div>
+
+              <div class="row">
+                <div class="dividerOT"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+                  <p>
+                    zGabrielMitoz.<br>
+                    <a>𝔃𝓖𝓪𝓫𝓻𝓲𝓮𝓵𝓜𝓲𝓽𝓸𝔃#0008</a>
+                    <a>| CEO & Developer.<br></a>
+                  </p>
+				</div> 
+			  </div> 
+			  <div class="row">
+                <div class="col-md-4">
+                  <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+				  <p>
+                    Macedo.<br>
+                    <a>𝙼𝚊𝚌𝚎𝚍𝚘#0001</a>
+                    <a>| CEO.<br></a>
+                  </p>
+                </div>
+              </div>
+			 <div class="row">
+                <div class="col-md-4">
+                  <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+				  <p>
+                    Tamura.<br>
+                    <a>тαмυяα#7777</a>
+                    <a>| CEO & Developer.<br></a>
+                  </p>
+                </div>
+              </div>
+			 <div class="row">
+                <div class="col-md-4">
+                  <span class="awesome-contact"><i class="fab fa-discord"></i></span>
+				  <p>
+                    Murilo.<br>
+                    <a>F4K3#5338</a>
+                    <a>| CEO.<br></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
